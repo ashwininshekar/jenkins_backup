@@ -1,0 +1,23 @@
+Started by user [8mha:////4JRQ3q3IZATPMMNb3TVxGP8tTg80xwOn1ndDNMU2UkpuAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL9xOKM8sy8TACaY/G9wgAAAA==[0mashwininshekar
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/testing
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ashwininshekar/central_repo.git
+ > git init /var/lib/jenkins/workspace/testing # timeout=10
+Fetching upstream changes from https://github.com/ashwininshekar/central_repo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/ashwininshekar/central_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ashwininshekar/central_repo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ashwininshekar/central_repo.git # timeout=10
+Fetching upstream changes from https://github.com/ashwininshekar/central_repo.git
+ > git fetch --tags --progress -- https://github.com/ashwininshekar/central_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision a0b68096a337dfd7dec48ea1dd069f4b4f45bd4a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a0b68096a337dfd7dec48ea1dd069f4b4f45bd4a # timeout=10
+Commit message: "deleted"
+First time build. Skipping changelog.
+Finished: SUCCESS

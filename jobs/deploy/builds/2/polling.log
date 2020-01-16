@@ -1,0 +1,11 @@
+Started on Jan 14, 2020 5:45:21 PM
+Started by event from 140.82.115.248 ⇒ http://18.222.214.1:8080/github-webhook/ on Tue Jan 14 17:45:21 UTC 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision a0b68096a337dfd7dec48ea1dd069f4b4f45bd4a (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/ashwininshekar/central_repo.git # timeout=10
+Found 1 remote heads on https://github.com/ashwininshekar/central_repo.git
+[poll] Latest remote head revision on refs/heads/master is: fa910a151ffbfb52299955c4c2b02cd0d850009f
+Done. Took 0.17 sec
+Changes found

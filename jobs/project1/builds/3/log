@@ -1,0 +1,30 @@
+Started by user [8mha:////4JRQ3q3IZATPMMNb3TVxGP8tTg80xwOn1ndDNMU2UkpuAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgZe/dLi1CL9xOKM8sy8TACaY/G9wgAAAA==[0mashwininshekar
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/project1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/ashwininshekar/project1.git
+ > git init /var/lib/jenkins/workspace/project1 # timeout=10
+Fetching upstream changes from https://github.com/ashwininshekar/project1.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/ashwininshekar/project1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ashwininshekar/project1.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/ashwininshekar/project1.git # timeout=10
+Fetching upstream changes from https://github.com/ashwininshekar/project1.git
+ > git fetch --tags --progress -- https://github.com/ashwininshekar/project1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 4a00f28f84e3903dcde7c6e6967f65edf486e85b (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4a00f28f84e3903dcde7c6e6967f65edf486e85b # timeout=10
+Commit message: "Add files via upload"
+First time build. Skipping changelog.
+[project1] $ /bin/sh -xe /tmp/jenkins6865702947502015370.sh
++ cd /var/lib/jenkins/workspace/project1/
++ make
+cc    -c -o big3.o big3.c
+make: cc: Command not found
+make: *** [<builtin>: big3.o] Error 127
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

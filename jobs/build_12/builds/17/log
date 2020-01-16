@@ -1,0 +1,29 @@
+Started by GitHub push by ashwininshekar
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/build_12
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ashwininshekar/central_repo.git # timeout=10
+Fetching upstream changes from https://github.com/ashwininshekar/central_repo.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/ashwininshekar/central_repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision fa910a151ffbfb52299955c4c2b02cd0d850009f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fa910a151ffbfb52299955c4c2b02cd0d850009f # timeout=10
+Commit message: "Update big3.c"
+ > git rev-list --no-walk a0b68096a337dfd7dec48ea1dd069f4b4f45bd4a # timeout=10
+[build_12] $ /bin/sh -xe /tmp/jenkins9162229758171350634.sh
++ cd /var/lib/jenkins/workspace/build_12
++ make
+cc    -c -o big3.o big3.c
+big3.c:4:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ big3()
+ ^~~~
+gcc -o ABC.exe big3.o reverse.o main.o
+Triggering a new build of [8mha:////4K1Jw3rvllOBplYA/PXS78R9opeZd224+SZ1CvyYlxosAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JP2S1OISoHZ9AFumAcXCAAAA[0mtesting
+Triggering a new build of [8mha:////4Cz31057BzuwqyRUCvMdxNC12exD/6tLNzmYUwwIdk+lAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2U1IKc/Ep9AE110wvBAAAA[0mdeploy
+Triggering a new build of [8mha:////4Cz31057BzuwqyRUCvMdxNC12exD/6tLNzmYUwwIdk+lAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2U1IKc/Ep9AE110wvBAAAA[0mdeploy
+Finished: SUCCESS

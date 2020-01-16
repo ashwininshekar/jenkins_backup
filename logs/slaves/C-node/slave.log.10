@@ -1,0 +1,7 @@
+SSHLauncher{host='172.31.45.29', port=22, credentialsId='5aa4a21f-d19f-4509-a7d8-e387f8603ea8', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=210, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.ManuallyTrustedKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[01/16/20 11:38:10] [SSH] Opening SSH connection to 172.31.45.29:22.
+[01/16/20 11:38:10] [SSH] SSH host key matches key seen previously for this host. Connection will be allowed.
+[01/16/20 11:38:10] [SSH] Authentication failed.
+Authentication failed.
+[01/16/20 11:38:10] Launch failed - cleaning up connection
+[01/16/20 11:38:10] [SSH] Connection closed.
